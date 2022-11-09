@@ -3,10 +3,10 @@ public class Main {
 
         System.out.println("Hello from checkpoint 1");
 
-        Student name = new Student();
-        name.setFirstName("Jacob");
-        name.setLastName("Ambjörnsson");
+        Student student = new Student();
+        student.setFirstName("Jacob");
+        student.setLastName("Ambjörnsson");
 
-        System.out.println("\nMy name is " + name.getFirstName() + " " + name.getLastName() +".");
+        System.out.println("\nMy name is " + student.getFirstName() + " " + student.getLastName() +".");
     }
 }
