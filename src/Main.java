@@ -7,6 +7,9 @@ public class Main {
         student.setFirstName("Jacob");
         student.setLastName("Ambjörnsson");
 
-        System.out.println("\nMy name is " + student.getFirstName() + " " + student.getLastName() +".");
+        Courses course = new Courses();
+        course.setCourse("Java");
+
+        System.out.println("\nMy name is " + student.getFirstName() + " " + student.getLastName() +"." + " I am attending " + course.getCourse() + " Course.");
     }
 }
